@@ -8,7 +8,7 @@ if __name__ == '__main__':
 	file_name = os.path.join('lena1000p.jpg')
 	img = rgb2gray(plt.imread(file_name))
 
-	# Blur image
+	# Blur image 
 	blurred_img = blur(img, kernel_size = 9)
 
 	# Add Gaussian noise
